@@ -1,10 +1,12 @@
-<!--下面這個template代表呈現的html-->
+<!--下面這個template代表呈現的html(裡面只能有一個element)-->
 <template>
   <div id="app">
     <div id="nav">
+      <!--to指向的路徑要到router/index.js裡看-->
       <router-link to="/">Home</router-link>
       <router-link to="/about">About</router-link>
     </div>
+    <!--下面這個呈現相對應的Vue檔-->
     <router-view/>
   </div>
 </template>

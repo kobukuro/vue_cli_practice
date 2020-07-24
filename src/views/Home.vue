@@ -1,6 +1,7 @@
 <template>
   <div class="home">
     <img alt="Vue logo" src="../assets/logo.png">
+    <!--下面這個msg的值傳到HelloWorld.vue裡-->
     <HelloWorld msg="Welcome to Your Vue.js App"/>
   </div>
 </template>

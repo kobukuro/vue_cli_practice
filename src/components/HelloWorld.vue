@@ -32,6 +32,7 @@
   </div>
 </template>
 
+<!--利用下面這個exportㄝ,其他的檔案就可以import,然後其他檔案要render的變數要放在props裡-->
 <script>
 export default {
   name: 'HelloWorld',
